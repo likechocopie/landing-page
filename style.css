@@ -6,10 +6,31 @@ body{
     
 }
 
-div{
-    border: 5px solid red;
+.body{
     flex: 1;
-    padding: 0 64px:
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cta-section{
+    padding: 32px;
+}
+
+.modal{
+    display: flex;
+    justify-content: ;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+}
+
+#cta{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 4px 24px;
+    border-radius: 4px;
 }
 
 .footer{

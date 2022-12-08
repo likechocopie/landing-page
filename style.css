@@ -1,5 +1,22 @@
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+} 
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 16px
+}
+
+
 h1{
     font: 48px extra-bold #f9faf8;
+    margin-right: auto;
 }
 h3 {
     font-size: 24px;

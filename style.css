@@ -12,6 +12,7 @@ p {
 
 
 body{
+    font-family: "Open Sans", sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,8 +27,43 @@ body{
     justify-content: space-between;
 }
 
+.hero {
+
+    flex: 2;
+}
+
+.cards{
+    flex: 2;
+}
+
+.quote {
+    padding: 48px 32px;
+    flex: 2;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote #author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+
 .cta-section{
-    padding: 32px;
+    padding: 48px 32px;
+    flex: 1
 }
 
 .modal{
@@ -54,10 +90,11 @@ body{
 }
 
 .footer{
-    font-size: 24px;
+    font-size: 18px;
     background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px;
 }

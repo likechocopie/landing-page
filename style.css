@@ -1,9 +1,22 @@
+h1{
+    font: 48px extra-bold #f9faf8;
+}
+h3 {
+    font-size: 24px;
+}
+
+button,
+p {
+    font-size: 18px;
+}
+
 .header{
     background-color: #1f2937;
     color: white;
     display: flex;
     align-items: center;
     padding: 0 32px;
+    justify-content: space-between;
 } 
 
 ul{
@@ -13,18 +26,9 @@ ul{
     gap: 16px
 }
 
-
-h1{
-    font: 48px extra-bold #f9faf8;
-    margin-right: auto;
-}
-h3 {
-    font-size: 24px;
-}
-
-button,
-p {
-    font-size: 18px;
+a{
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 
@@ -45,8 +49,33 @@ body{
 }
 
 .hero {
-
+    background-color: #1f2937;
+    color: white;
     flex: 2;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-content{
+    flex: 1;
+}
+
+.hero .subtext{
+    color: #e5e7eb;
+}
+
+.hero #cta {
+    background-color: #3882f6;
+    border: none;
+    margin-top: 16px;
+}
+
+.hero-img{
+    flex: 1;
+    width: auto;
+    height: 254px;
 }
 
 .cards{

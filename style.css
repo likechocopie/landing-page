@@ -80,6 +80,34 @@ body{
 
 .cards{
     flex: 2;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards h3{
+    margin: auto;
+}
+
+.items{
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.item{
+    flex: 1 1 180px;
+    max-width: 180px;
+    text-align: center;
+}
+
+.item img{
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    height: 180px;
+    width: 180px;
 }
 
 .quote {
